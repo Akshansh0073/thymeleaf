@@ -16,10 +16,11 @@ public class MyController {
 	
 	@RequestMapping(value= "/about", method=RequestMethod.GET)
 	public String about(Model model) {
+
 		
 		System.out.println("Inside about handler ...");
 		
-		model.addAttribute("name", "Akshansh Sharma");
+		model.addAttribute("name", "Akshansh Sharma.. ");
 		model.addAttribute("date", LocalDate.now() );
 		
 		return "about";
