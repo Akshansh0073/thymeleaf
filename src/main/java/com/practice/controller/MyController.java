@@ -19,7 +19,7 @@ public class MyController {
 		
 		System.out.println("Inside about handler ...");
 		
-		model.addAttribute("name", "Akshansh Sharma     ");
+		model.addAttribute("name", "Akshansh Sharma");
 		model.addAttribute("date", LocalDate.now() );
 		
 		return "about";
